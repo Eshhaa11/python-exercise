@@ -12,3 +12,4 @@ print(car.model)
 print(car.year)
 print(car.color)
 
+del car.model
