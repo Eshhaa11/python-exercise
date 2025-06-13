@@ -1,15 +1,17 @@
 class Car:
-    def __init__(self, brand, model, year, color):
+    def __init__(self, brand, year, color):
         self.brand = brand
-        self.model = model
         self.year = year
         self.color = color
 
-car = Car("Toyota", "Corolla", 2025, "white")
+car = Car("Toyota", 2025, "white")
+
 
 print(car.brand)
-print(car.model)
 print(car.year)
 print(car.color)
 
-del car.model
+
+car.year = 2028
+print(car.year)
+
