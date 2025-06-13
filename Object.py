@@ -5,7 +5,7 @@ class Car:
         self.year = year
         self.color = color
 
-car = Car("Toyota", "Corolla", 2020, "white")
+car = Car("Toyota", "Corolla", 2025, "white")
 
 print(car.brand)
 print(car.model)
